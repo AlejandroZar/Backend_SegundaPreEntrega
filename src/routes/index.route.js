@@ -3,7 +3,7 @@ const router = express.Router()
 
 const alumnoController = require("../controllers/AppController")
 
-router.get("/", alumnoController.mostrar)
+router.get("/inicio", alumnoController.mostrar)
 
 module.exports = router
 
